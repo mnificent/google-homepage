@@ -67,22 +67,32 @@ a:hover {
 #footer {
 	line-height:40px;
 	min-width:980px;
-	position:absolute;
 	font-family:Arial;
 	font-size:11pt;
 	display:block;
-	bottom:0;
-	left:0;
-	right:0;
+	margin-top:10em;
 	white-space:nowrap;
 }
 #footer_left {
 	display:inline;
 	float:right;
 	white-space:nowrap;
+	text-align:left;
+	padding-right:30px;
+	padding-left:30px;
+}
+#footer_middle {
+	display:inline;
+	white-space:nowrap;
+	text-align:center;
+	padding-right:10px;
+	padding-left:10px;
 }
 #footer_right {
 	display:inline;
 	float:left;
 	white-space:nowrap;
+	text-align:right;
+	padding-right:30px;
+	padding-left:30px;
 }
